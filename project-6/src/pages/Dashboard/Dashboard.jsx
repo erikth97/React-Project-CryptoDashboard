@@ -1,9 +1,11 @@
-import React from 'react'
+import DashboardLayout from "../../components/DashboardLayout";
 
-const Dashboard = () => {
+const Dashboard = ({}) => {
   return (
-    <div>Dashboard</div>
+    <DashboardLayout title="Dashboard">
+      <div>How are you</div>
+    </DashboardLayout>  
   )
-}
+};
 
 export default Dashboard
