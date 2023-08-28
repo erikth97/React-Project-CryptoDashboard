@@ -111,6 +111,6 @@ export const theme = extendTheme(
             },
           }
         },
-  },
+   },
   withDefaultColorScheme({ colorScheme: "purple" })
 );
