@@ -11,6 +11,7 @@ const Dashboard = ({}) => {
         base: "repeat(1, 1fr)",
         md: "repeat(2, 1fr)",
       }}
+      gap="6"
       >
       <GridItem colSpan={2}>
         <PortfolioSection></PortfolioSection>
