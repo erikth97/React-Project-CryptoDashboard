@@ -11,11 +11,16 @@ const Dashboard = ({}) => {
       <Grid
       gridTemplateColumns={{
         base: "repeat(1, 1fr)",
-        md: "repeat(2, 1fr)",
-      }}
-      gap="6"
+        xl: "repeat(2, 1fr)",
+       }}
+       gap="6"
       >
-      <GridItem colSpan={2}>
+      <GridItem
+       colSpan={{
+         base: 1,
+         xl: 2,
+       }}
+       >
         <PortfolioSection></PortfolioSection>
       </GridItem>
       <GridItem colSpan={1}>
@@ -25,7 +30,21 @@ const Dashboard = ({}) => {
         <Transactions />
       </GridItem>
       <GridItem colSpan={1}>
-        <InfoCard />
+        <InfoCard 
+          imgUrl="/dot_bg.svg"
+          text=" Learn more about Loans - Keep you Bitcoin, access it's value whithout
+           selling it"
+          tagText= "Loan"
+          inverted={false}
+        />
+      </GridItem>
+      <GridItem colSpan={1}>
+        <InfoCard 
+          inverted={true} 
+          tagText="Contact"
+          imgUrl="/grid_bg.svg" 
+          text=" Learn more about our Real Estate, mortgage, and corporate account services"  
+          />
       </GridItem>
       </Grid>
     </DashboardLayout>  
