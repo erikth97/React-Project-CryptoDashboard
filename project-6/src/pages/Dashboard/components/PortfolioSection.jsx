@@ -1,9 +1,9 @@
 import { Button, HStack, Icon, Stack, Tag, Text } from '@chakra-ui/react'
 import React from 'react'
 import { AiOutlineInfoCircle } from "react-icons/ai"
-import { 
-    BsArrowDownCircle, 
-    BsArrowUpCircle 
+import {
+    BsArrowUpCircleFill, 
+    BsFillArrowDownCircleFill 
 } from "react-icons/bs"
 const PortfolioSection = () => {
   return (
@@ -78,13 +78,13 @@ const PortfolioSection = () => {
             </Text>{" "} 
             <Tag colorScheme='gray'>USD</Tag>
             </HStack>
-            </HStack>
+            </HStack> 
         </Stack>
         </HStack>
 
         <HStack>
-            <Button leftIcon={<Icon as={BsArrowDownCircle} />}>Desposit</Button>
-            <Button leftIcon={<Icon as={BsArrowUpCircle} />}>Withdraw </Button>
+            <Button leftIcon={<Icon as={BsFillArrowDownCircleFill} />}>Desposit</Button>
+            <Button leftIcon={<Icon as={BsArrowUpCircleFill} />}>Withdraw </Button>
         </HStack>
     </HStack>
   );
