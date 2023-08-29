@@ -20,7 +20,7 @@ const Transactions = () => {
         icon: BsCurrencyDollar,
         text: "INR Deposit",
         amount: "+ $81,123.10",
-        timestamp: "2023-06-09 7:15 PM",
+        timestamp: "2023-08-29 7:15 PM",
     },
     {
         id: "2",
