@@ -18,8 +18,8 @@ const Support = () => {
         />
       <SupportCard
           icon={BsMessenger} 
-          leftComponent=
-             {<InfoCard
+          leftComponent={
+             <InfoCard
              inverted={true}
              tagText="Contact"
              imgUrl="/grid_bg.svg"
