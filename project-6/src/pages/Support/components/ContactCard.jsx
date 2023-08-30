@@ -41,7 +41,7 @@ import {
             <Input type="email" placeholder="Enter Your Email.." />
           </FormControl>
           <FormControl>
-            <FormLabel>Messagee</FormLabel>
+            <FormLabel>Message</FormLabel>
             <Textarea placeholder="¿Do you have any comment? ¡Chat with us!" />
           </FormControl>
           <Checkbox defaultChecked>
